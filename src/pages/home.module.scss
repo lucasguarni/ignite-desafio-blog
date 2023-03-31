@@ -32,4 +32,21 @@
   margin-top: 24px;
   display: block;
   text-transform: capitalize;
+  display: flex;
+  gap: 18px;
+  
+  > * {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.buttonLoadMore {
+  color: var(--color-highlight);
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
 }
