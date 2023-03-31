@@ -4,4 +4,16 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --color-background: #1A1D23;
+  --color-highlight: #FF57B2;
+  --color-heading: #F8F8F8;
+  --color-info: #BBBBBB;
+  --color-body: #D7D7D7;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-body);
+  font-family: 'Inter', sans-serif;
+}
